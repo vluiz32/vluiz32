@@ -5,8 +5,16 @@
   box-sizing: border-box;
 }
 
-html, body, aside {
+html, body, aside, main, section { 
   height: 100%;
+}
+
+section {
+  margin-left: 300px;
+}
+
+html{
+  scroll-behavior: smooth;
 }
 
 .aside-wrap {
